@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==82.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posttrain-project"
+version = "0.1.0"
+description = "Auditable Qwen2.5-Coder-7B execution-feedback experiment"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==9.0.3"]
+data = ["pyarrow==23.0.1"]
+vm = ["paramiko==5.0.0", "pycdlib==1.21.0"]
+preparation = ["transformers==5.9.0", "tokenizers==0.22.2", "hydra-core==1.3.3", "jinja2==3.1.6"]
+
+[project.scripts]
+posttrain = "posttrain.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

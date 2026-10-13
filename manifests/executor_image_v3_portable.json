@@ -1,0 +1,11 @@
+{
+  "archive_bytes": 68687040,
+  "archive_sha256": "c3366e4892f1fa95ca45c05063e73ac065cc796aef2f3b73865d0a1db0033bb2",
+  "created_at": "2026-09-26T12:04:49.879045+00:00",
+  "image_id": "sha256:0106a6090782e770c43597f20b3e579584c575b1166d3a5dad969f18d4fe5e56",
+  "native_CPU_isolation_validated": false,
+  "requires_fresh_target_attestation": true,
+  "source": "local_VM_verified_v3_image_export",
+  "transfer_verified": true,
+  "worker_source_sha256": "fea4edd2987cdd1ab235308fa7bbda719283b4ea7c4d18edd125827c76b9f48d"
+}

@@ -1,0 +1,15 @@
+dataset:
+  database:
+    backend:
+      type: none
+  max_runner_concurrency: 1
+  registry: []
+sandbox:
+  # Outer disposable container provides isolation. Never run this on a host.
+  isolation: none
+  set_uid: 10001
+  cleanup_process: false
+  restore_bash: false
+  max_concurrency: 1
+common:
+  logging_color: false

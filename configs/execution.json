@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "backend": "sandboxfusion",
+  "endpoint": "http://127.0.0.1:8080",
+  "require_attestation": true,
+  "max_infrastructure_retries": 2,
+  "retry_backoff_s": 0.1,
+  "candidate_total_deadline_s": 300,
+  "memory_mb": 256,
+  "output_bytes": 65536,
+  "pids": 16,
+  "cpu_cores": 1,
+  "comparison": "exact_whitespace_tokens_v1",
+  "network": "disabled",
+  "hidden_expected_outputs_sent_to_candidate": false,
+  "configuration_status": "candidate_requires_live_isolation_validation"
+}

@@ -1,0 +1,20 @@
+{
+  "kodcode_problems": 3745,
+  "benchmark_tasks": 542,
+  "criteria": {
+    "ngram": 8,
+    "cosine_flag": 0.45,
+    "cosine_name": 0.2
+  },
+  "flagged_pairs": 212,
+  "flagged_benchmark_tasks": 80,
+  "by_criterion": {
+    "C_name": 4,
+    "A_8gram": 208
+  },
+  "by_bench": {
+    "MBPP+": 68,
+    "HumanEval+": 144
+  },
+  "pairs_touching_trained": 26
+}
